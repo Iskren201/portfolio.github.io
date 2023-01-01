@@ -1,0 +1,15 @@
+img{
+    height: auto;
+    width: 330px;
+    margin-right: 50px;
+ 
+}
+
+.about-me-images{
+    display: flex;
+    border: 2px solid red;
+    width: 50%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}

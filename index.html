@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap"
+      rel="stylesheet"
+    />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="app.js" />
+
+    <title>My Porfolio</title>
+  </head>
+  <body>
+    <div class="container-top-bar">
+      <nav>
+        <h2 class="logo">Portfo<span>lio</span></h2>
+        <ul>
+          <li><a href="index.html" target="_blank">Home</a></li>
+          <li><a href="html.html">HTML</a></li>
+          <li><a href="#">CSS</a></li>
+          <li><a href="aboutme.html">About Me</a></li>
+        </ul>
+        <a href="#" class="btn">More Info</a>
+      </nav>
+      <!-- animate class="typewriter" -->
+      <div class="content">
+        <!-- <h4 class="typing-demo">Hello, My name is</h4>
+        <h1 class="typing-demo">Iskren Iliev</h1>
+        <h3 class="typing-demo">I am a Web Developer</h3> -->
+
+        <h1 class="typing-demo" style="font-size: 34px">
+          Hello, My name is Iskren Iliev I am a Wev Developer
+        </h1>
+
+        <!-- <div class="newslatter">
+          <form>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Enter your Email"
+            />
+            <input type="submit" name="submit" value="Let's start" />
+          </form>
+        </div> -->
+      </div>
+    </div>
+
+    <!-- About me section -->
+
+    <section class="about">
+      <div class="main">
+        <img
+          data-aos="fade-right"
+          data-aos="fade-right"
+          data-aos-offset="450"
+          src="images/pexels-simon-733998.jpg"
+          alt="Moneky"
+        />
+        <div class="about-text">
+          <h2>About Me</h2>
+          <h5>Developer & <span>Student</span></h5>
+          <p data-aos="fade-left" data-aos="fade-right" data-aos-offset="450">
+            I am a 2nd year student studying information technology at a new
+            Bulgarian university I have been doing web development for a while
+            now and I have a desire to move forward with this technology, I've
+            been working with Bootstrap react for now, and I'm interested in my
+            further development with react ,I have 2 small projects that you can
+            see here
+          </p>
+          <button type="button">Let's start Here</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- service section  -->
+
+    <div class="service">
+      <div class="title">
+        <h2>Skills</h2>
+      </div>
+
+      <div class="box">
+        <div
+          class="card"
+          data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="1500"
+        >
+          <i class="fa-brands fa-html5"></i>
+          <h5>HTML</h5>
+          <div class="pra">
+            <p>
+              Good knowledge of the language, I am familiar with the language
+            </p>
+            <p style="text-align: center">
+              <a class="button" href="html.html" target="_blank"
+                >Clock me to see</a
+              >
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="box"
+          data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="1500"
+        >
+          <div class="card">
+            <i class="fa-brands fa-css3-alt"></i>
+            <h5>CSS</h5>
+            <div class="pra">
+              <p>
+                Intermediate in css able to do everything from search, I'm
+                currently learning frameworks like bootstrap and react
+              </p>
+              <p style="text-align: center">
+                <a class="button" target="_blank">Click me to see</a>
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <i class="fa-brands fa-square-js"></i>
+            <h5>JavaScript</h5>
+            <div class="pra">
+              <p>
+                the basics i know i can make simple applications from search
+              </p>
+              <p style="text-align: center">
+                <!-- <a class="button" onclick="myFunction()">Click me to see</a> -->
+                <button class="button" onclick="myFunction()">Try it</button>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- contact me -->
+
+      <div class="contact-me">
+        <p>if you are interested please let me know.</p>
+        <a class="button-two" href="#">Click me</a>
+      </div>
+    </div>
+
+    <!-- Footer -->
+
+    <footer>
+      <p>Social link</p>
+      <div class="social">
+        <a href="https://github.com/Iskren201" target="_blank"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <a
+          href="https://www.facebook.com/profile.php?id=100004811896061"
+          target="_blank"
+          ><i class="fa-brands fa-facebook"></i
+        ></a>
+        <a href="https://www.instagram.com/iskren7060/" target="_blank"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+      </div>
+    </footer>
+    <link rel="stylesheet" href="app.js" />
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+
+  <!-- Script tag -->
+
+  <script>
+    function myFunction() {
+      alert("I am an alert box!");
+    }
+  </script>
+
+  <!-- End of Script tag -->
+</html>
