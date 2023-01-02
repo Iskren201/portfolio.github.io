@@ -5,6 +5,7 @@
 }
 
 
+
 *{
     padding: 0;
     margin: 0;
@@ -33,7 +34,7 @@ nav{
     letter-spacing: 1px;
 }
 span{
-    color: red;
+    color: #f9004d;
 }
 
 nav ul li {
@@ -45,7 +46,8 @@ nav ul li a {
     color: white;
     text-decoration: none;
      font-weight: bold;
-     text-transform: capitalize;
+     text-transform: uppercase;
+     
 }
 
 nav ul li a:hover{
@@ -57,7 +59,7 @@ nav ul li a:hover{
 
 
 .btn{
-    background-color: rgb(85, 218, 81);
+    background-color: #f9004d;
     color: white;
     text-decoration: none;
     border: 2px solid transparent;
@@ -70,8 +72,9 @@ nav ul li a:hover{
 /* BTN hover da vidq za better still na cveta i efekti  */
 
 .btn:hover{
-    color: blueviolet;
-    background-color: black;
+    color: white;
+    background-color: transparent;
+    border: 2px solid #f9004d;
     transform: scale(1.5);
     transition: .4s;
 }
@@ -226,8 +229,9 @@ button:hover{
     color: white;
     font-size: 75px;
     width: 1130px;
-    margin: 30px auto;
+    margin: 0px auto;
     text-align: center;
+
 }
     /* Tuk neshto ne raboti kakto trqbva ? ? ?  */
 .box {
